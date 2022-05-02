@@ -20,9 +20,22 @@ What is the probability that the player successfully makes fewer than three bask
 P(X<3) = P(X=0) + P(X=1) + P(X=2) = 1/8 + 3/8 + 3/8 = 7/8 or
 P(X<3) 1- P(X-3) = 1-1/8 = 7/8
 
+Continuous random variables
+
+A continuous random variable X tankes all values in an interval
+Example: There is an infinity of numbers between 0 and 1 (e.g. , 0.001, 0.4,...)
+How do we assign probabilities to events in an infinite sample space?
+We use density curves and compute probabilities for intervals.
+The probability of any event is the area under the density curve for the values of X that make up the event.
+This is a uniform density curve for the variable X.
+The probability that X falls between 0.3 and 0.7 is
+the area under the density curve for that interval:
+P(0.3 ≤ x ≤ 0.7) = (0.7 -0.3)*1 = 0.4
+
 -----------------------------
 Vietnamese language
-Biến ngẫu nhiên rời rạc
+-----------------------------
+I. Biến ngẫu nhiên rời rạc
 
 1. Biến ngẫu nhiên là một biến có giá trị là kết quả số của một hiện tượng ngẫu nhiên.
 Ví dụ: Một cầu thủ bóng rổ ném ba quả ném phạt. Chúng tôi xác định X vaeiable ngẫu nhiên là số giỏ được tạo thành công.
@@ -44,3 +57,14 @@ P(X>=2) = P(X=2) + P(X=3) = 3/8 + 1/8 = 1/2
 Xác suất người chơi ném thành công ít hơn ba rổ là bao nhiêu?
 P(X<3) = P(X=0) + P(X=1) + P(X=2) = 1/8 + 3/8 + 3/8 = 7/8 or
 P(X<3) 1- P(X-3) = 1-1/8 = 7/8
+
+II. Biến ngẫu nhiên liên tục
+Một biến ngẫu nhiên liên tục X nhận tất cả các giá trị trong một khoảng.
+Ví dụ: Có vô số số từ 0 đến 1 (ví dụ: 0,001, 0,4, 0,0063876).
+Làm thế nào để chúng ta gán xác suất cho các sự kiện trong không gian mẫu vô hạn?
+Chúng tôi sử dụng đường cong mật độ và tính toán xác suất cho các khoảng thời gian.
+Xác suất của bất kỳ sự kiện nào là diện tích dưới đường cong mật độ cho các giá trị của X tạo nên sự kiện đó.
+Đây là đường cong mật độ đồng nhất cho biến X.
+Xác suất để X nằm trong khoảng từ 0,3 đến 0,7 là
+diện tích dưới đường cong mật độ cho khoảng đó:
+P (0,3 ≤ x ≤ 0,7) = (0,7 -0,3) * 1 = 0,4
